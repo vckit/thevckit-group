@@ -6,8 +6,8 @@
 + BasFox
 UIDesign
 
-[X] SignIn Screen
-![SignIn View](https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/sigin.png)
+[X]SignIn Screen
+![SignIn View](https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/sigin.png | width=100)
 
-[X] SignUp Screen
-![SignUp View](https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/signup.png)
+[X]SignUp Screen
+![SignUp View](https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/signup.png | width=100)
