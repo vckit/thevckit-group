@@ -1,4 +1,4 @@
-# thevckit-group
+# thevckit
 **Hi, I`m a Junoir developer**
 #
 
@@ -12,3 +12,5 @@ Sign Up View
 
 <img src="https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/signup.png" width="300" height="550"/>
 
+# © copyright
+### mr. Abdulkhakim M. 2021
