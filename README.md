@@ -21,11 +21,11 @@ The application has a delightful design, improves the readability of the materia
 
 + **View Post**
 
-<img scr="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/post.png" width="300" height="550"/>
+<img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/post.png"/>
 
 + **View Pleaceholder**
 
-<img scr="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/nopst.png" width="300" height="550"/>
+<img scr="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/nopost.png" width="300" height="550"/>
 
 # © copyright
 ### mr. Abdulkhakim M. 2021
