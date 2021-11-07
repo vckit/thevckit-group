@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7755F62272D9C9B00C4B1CF /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7755F61272D9C9B00C4B1CF /* DailyScrum.swift */; };
+		C7755F66272D9D7600C4B1CF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7755F65272D9D7600C4B1CF /* CardView.swift */; };
+		C7755F68272DA51100C4B1CF /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7755F67272DA51100C4B1CF /* Color+Codable.swift */; };
+		C7755F6A272DB3D500C4B1CF /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7755F69272DB3D500C4B1CF /* ScrumsView.swift */; };
+		C7CD7D922729E09A00DBE330 /* SCRUMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CD7D912729E09A00DBE330 /* SCRUMApp.swift */; };
+		C7CD7D942729E09A00DBE330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CD7D932729E09A00DBE330 /* ContentView.swift */; };
+		C7CD7D962729E09E00DBE330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CD7D952729E09E00DBE330 /* Assets.xcassets */; };
+		C7CD7D992729E09E00DBE330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CD7D982729E09E00DBE330 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7755F61272D9C9B00C4B1CF /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		C7755F65272D9D7600C4B1CF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C7755F67272DA51100C4B1CF /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		C7755F69272DB3D500C4B1CF /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		C7CD7D8E2729E09A00DBE330 /* SCRUM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCRUM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CD7D912729E09A00DBE330 /* SCRUMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRUMApp.swift; sourceTree = "<group>"; };
+		C7CD7D932729E09A00DBE330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7CD7D952729E09E00DBE330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CD7D982729E09E00DBE330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CD7D8B2729E09A00DBE330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7755F63272D9D4000C4B1CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7755F61272D9C9B00C4B1CF /* DailyScrum.swift */,
+				C7755F67272DA51100C4B1CF /* Color+Codable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7755F64272D9D5300C4B1CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD7D932729E09A00DBE330 /* ContentView.swift */,
+				C7755F65272D9D7600C4B1CF /* CardView.swift */,
+				C7755F69272DB3D500C4B1CF /* ScrumsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7CD7D852729E09A00DBE330 = {
+			isa = PBXGroup;
+			children = (
+				C7CD7D902729E09A00DBE330 /* SCRUM */,
+				C7CD7D8F2729E09A00DBE330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CD7D8F2729E09A00DBE330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD7D8E2729E09A00DBE330 /* SCRUM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CD7D902729E09A00DBE330 /* SCRUM */ = {
+			isa = PBXGroup;
+			children = (
+				C7755F64272D9D5300C4B1CF /* View */,
+				C7755F63272D9D4000C4B1CF /* Model */,
+				C7CD7D912729E09A00DBE330 /* SCRUMApp.swift */,
+				C7CD7D952729E09E00DBE330 /* Assets.xcassets */,
+				C7CD7D972729E09E00DBE330 /* Preview Content */,
+			);
+			path = SCRUM;
+			sourceTree = "<group>";
+		};
+		C7CD7D972729E09E00DBE330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD7D982729E09E00DBE330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CD7D8D2729E09A00DBE330 /* SCRUM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CD7D9C2729E09E00DBE330 /* Build configuration list for PBXNativeTarget "SCRUM" */;
+			buildPhases = (
+				C7CD7D8A2729E09A00DBE330 /* Sources */,
+				C7CD7D8B2729E09A00DBE330 /* Frameworks */,
+				C7CD7D8C2729E09A00DBE330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCRUM;
+			productName = SCRUM;
+			productReference = C7CD7D8E2729E09A00DBE330 /* SCRUM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CD7D862729E09A00DBE330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C7CD7D8D2729E09A00DBE330 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C7CD7D892729E09A00DBE330 /* Build configuration list for PBXProject "SCRUM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CD7D852729E09A00DBE330;
+			productRefGroup = C7CD7D8F2729E09A00DBE330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CD7D8D2729E09A00DBE330 /* SCRUM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CD7D8C2729E09A00DBE330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CD7D992729E09E00DBE330 /* Preview Assets.xcassets in Resources */,
+				C7CD7D962729E09E00DBE330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CD7D8A2729E09A00DBE330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7755F68272DA51100C4B1CF /* Color+Codable.swift in Sources */,
+				C7755F6A272DB3D500C4B1CF /* ScrumsView.swift in Sources */,
+				C7CD7D942729E09A00DBE330 /* ContentView.swift in Sources */,
+				C7755F62272D9C9B00C4B1CF /* DailyScrum.swift in Sources */,
+				C7755F66272D9D7600C4B1CF /* CardView.swift in Sources */,
+				C7CD7D922729E09A00DBE330 /* SCRUMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7CD7D9A2729E09E00DBE330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7CD7D9B2729E09E00DBE330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CD7D9D2729E09E00DBE330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCRUM/Preview Content\"";
+				DEVELOPMENT_TEAM = RCCUBKLJRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbdulkhakimiOS.SCRUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CD7D9E2729E09E00DBE330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCRUM/Preview Content\"";
+				DEVELOPMENT_TEAM = RCCUBKLJRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbdulkhakimiOS.SCRUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CD7D892729E09A00DBE330 /* Build configuration list for PBXProject "SCRUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CD7D9A2729E09E00DBE330 /* Debug */,
+				C7CD7D9B2729E09E00DBE330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CD7D9C2729E09E00DBE330 /* Build configuration list for PBXNativeTarget "SCRUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CD7D9D2729E09E00DBE330 /* Debug */,
+				C7CD7D9E2729E09E00DBE330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CD7D862729E09A00DBE330 /* Project object */;
+}
