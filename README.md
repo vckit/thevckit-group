@@ -21,7 +21,7 @@ The application has a delightful design, improves the readability of the materia
 
 + **View Post**
 
-<img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/post.png"/>
+<img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/post.png" width="300" height="550"/>
 
 + **View Pleaceholder**
 
