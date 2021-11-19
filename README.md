@@ -27,5 +27,24 @@ The application has a delightful design, improves the readability of the materia
 
 <img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/nopst.png" width="300" height="550"/>
 
+
+### Auth App
+#### Description
+In Auth App, I implemented the ability to authorize and register using Firebase, we have a small layout and work with the logic of the application. The application also remembers the user, even if he restarts the application, the application will remain authorized
+
+To develop the skills of working with Farebase, I would like to expand the scope of this technology and continue to develop this project
+
++ **Sign In**
+
+<img src="https://github.com/vckit/thevckit-group/blob/master/Auth/screens/SignIn.png" width="300" height="550"/>
+
++ **Sign Up**
+
+<img src="https://github.com/vckit/thevckit-group/blob/master/Auth/screens/SignUp.png" width="300" height="550"/>
+
++ **Home**
+
+<img src="https://github.com/vckit/thevckit-group/blob/master/Auth/screens/Home.png" width="300" height="550"/>
+
 # © copyright
 ### mr. Abdulkhakim M. 2021
