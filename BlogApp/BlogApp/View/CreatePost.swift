@@ -23,7 +23,7 @@ struct CreatePost: View {
             ScrollView(.vertical, showsIndicators: false, content: {
                 VStack (spacing: 15) {
                     VStack (alignment: .leading) {
-                        TextField("Заголовок Поста", text: $postTitle)
+                        TextField("Заголовок поста", text: $postTitle)
                             .font(.title2)
                         Divider()
                     }
@@ -32,7 +32,6 @@ struct CreatePost: View {
                             .font(.caption.bold())
                         
                         TextField("Имя автора", text: $authorName)
-                        
                         Divider()
                     }
                     .padding(.top, 5)
@@ -138,7 +137,7 @@ struct CreatePost: View {
                             }
                         }
                         else {
-                            Button("Пост") {
+                            Button("Постить") {
                                 blogData.writePost(content: postContent, author: authorName, postTitle: postTitle)
                             }
                             .disabled(authorName == "" || postTitle == "")

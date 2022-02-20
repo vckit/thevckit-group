@@ -88,10 +88,10 @@ struct Home: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack (alignment: .leading, spacing: 15) {
                     
-                    Text("Wirtten By \(post.author)")
+                    Text("Запостил: \(post.author)")
                         .foregroundColor(.gray)
                     
-                    Text("Written By: \(post.date.dateValue().formatted(date: .numeric, time: .shortened))")
+                    Text("Опубликован: \(post.date.dateValue().formatted(date: .numeric, time: .shortened))")
                         .foregroundColor(.gray)
                     
                     ForEach(post.postContent) { content in
@@ -113,12 +113,12 @@ struct Home: View {
                 Text(post.title)
                     .fontWeight(.bold)
                 
-                Text("Wirtten By \(post.author)")
+                Text("Запостил \(post.author)")
                     .font(.callout)
                     .foregroundColor(.gray)
                 
                 
-                Text("Written By: \(post.date.dateValue().formatted(date: .numeric, time: .shortened))")
+                Text("Опубликован: \(post.date.dateValue().formatted(date: .numeric, time: .shortened))")
                     .font(.caption.bold())
                     .foregroundColor(.gray)
             }
