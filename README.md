@@ -15,19 +15,6 @@ Next, I plan to implement the ability to authorize and register users using Fare
 
 <img src="https://github.com/vckit/thevckit-group/blob/master/BasFox/screens/signup.png" width="300" height="550"/>
 
-### Historical Letters Application
-#### Description
-The application has a delightful design, improves the readability of the material, as part of this project, I honed my skill in working with calculated accurate View animations, which allows you to build a harmonious user interface
-
-+ **View Post**
-
-<img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/post.png" width="300" height="550"/>
-
-+ **View Pleaceholder**
-
-<img src="https://github.com/vckit/thevckit-group/blob/master/ScrollableApp/screens/nopst.png" width="300" height="550"/>
-
-
 ### Auth App
 #### Description
 In Auth App, I implemented the ability to authorize and register using Firebase, we have a small layout and work with the logic of the application. The application also remembers the user, even if he restarts the application, the application will remain authorized
